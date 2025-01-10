@@ -274,5 +274,6 @@ restartBtn.addEventListener("click", () => {
     totalScore = 0
     camara.position.x = 0
     camara.position.y = -432 + scaledCanvas.height
+    coins.forEach((coin) => coin.collisionWithPlayer = false)
     player.restart()
 })
