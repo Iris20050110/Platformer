@@ -1,0 +1,50 @@
+<style>
+    body {
+        background-color: black;
+    }
+    h1 {
+        color: white;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Platformer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="start">
+      <h1>Warrior Runner</h1>
+      <p class="instructions">
+        Help the warrior navigate to the yellow checkpoints.
+      </p>
+      <p class="instructions">
+        Collect minimum 50 coins to win the game!
+      </p>
+
+      <div class="btn-container">
+        <button class="btn" id="start-btn">Start Game</button>
+      </div>
+    </div>
+
+    <div id="score-display">0</div>
+    <canvas id="game"></canvas>
+
+    <div id="end" hidden>
+      <h1 id="game-result"></h1>
+      <div class="btn-container">
+      <button class="btn" id="restart-btn">Restart</button>
+      </div>
+    </div>
+    <script src="utils.js"></script>
+    <script src="./classes/CollisionBlock.js"></script>
+    <script src="./classes/Sprite.js"></script>
+    <script src="./classes/Player.js"></script>
+    <script src="./data/collision.js"></script>
+    <script src="./classes/Coins.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
