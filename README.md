@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hello! Thank you for checking out this git repository for a simple vertical platformer game! If you would like to learn more, please feel to reach out: yushanli0110@g.ucla.edu
+Hello! Thank you for checking out this git repository for a vertical platformer game! This is a simplified version of a runner game developed through JavaScript and HTML Canvas Graphics. If you would like to learn more, please feel to reach out: yushanli0110@g.ucla.edu
 
 ## Setup
 
